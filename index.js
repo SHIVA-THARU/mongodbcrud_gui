@@ -11,7 +11,7 @@ const port = 3001;
 app.use(express.json());
 
 // MongoDB connection
-mongoose.connect('mongodb://127.0.0.1:27017/branddb')
+mongoose.connect('mongodb+srv://tharushivatharu2002:bindu8848@cluster0.bpn1t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
     .then(() => console.log('Connected to MongoDB'))
     .catch(err => console.error('Error connecting to MongoDB', err));
 
